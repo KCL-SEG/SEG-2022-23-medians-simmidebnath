@@ -11,6 +11,7 @@ while True:
         break
 print(numbers)
 
+numbers.sort()
 count = len(numbers)
 if(count % 2 == 0):
     number1 = numbers[int(count/2) - 1]
